@@ -67,6 +67,7 @@ for example  setup(“Iva”)  will print out
 Iva
 Iva who?
 
-#### 4. Create a knockknock procedure that accepts two inputs, the answer to who’s there and the punchline, and prints out the
-knock knock joke. Your program should call knockknockintro()  and setup().
+#### 4. Create a knockknock procedure that accepts two inputs, the answer to who’s there and the punchline, and prints out the knock knock joke. 
+
+Your program should call knockknockintro() and setup().
 
