@@ -14,8 +14,8 @@ right_justify(‘allen’)
 right_justify(‘Python is amazing’)
 
 Output:
-                                                                                                              allen
-                                                                                                  Python is amazing
+                                                                                                         allen
+                                                                                             Python is amazing
 ```
 
 ####2. Exercise 3.5 from thinkPython
@@ -24,7 +24,7 @@ so far.
 1. Write a function that draws a grid like the following:
 You should have two different functions to print out the rows, and another functions which calls these to print out the box.
 
-# x is the width of the row
+x is the width of the row
 ```
 def horizontal(x)
      <your code goes here>
