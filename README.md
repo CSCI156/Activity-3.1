@@ -19,9 +19,7 @@ Output:
 
 ####2. Exercise 3.5 from thinkPython
 Exercise 3.5. This exercise can be done using only the statements and other features we have learned
-so far.
-1. Write a function that draws a grid like the following:
-You should have two different functions to print out the rows, and another functions which calls these to print out the box.
+so far. Write a function that draws a grid like the following: You should have two different functions to print out the rows, and another functions which calls these to print out the box.
 
 x is the width of the row
 ```
