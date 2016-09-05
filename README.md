@@ -9,17 +9,18 @@ def right_justify(s):
 
      <your code goes here>
 
-right_justify(‘allen’)
+right_justify(‘Allen’)
 right_justify(‘Python is amazing’)
 
 Output:
-                                                                                                         allen
+                                                                                                         Allen
                                                                                              Python is amazing
 ```
 
 ####2. Exercise 3.5 from thinkPython
-Exercise 3.5. This exercise can be done using only the statements and other features we have learned
-so far. Write a function that draws a grid like the following: You should have two different functions to print out the rows, and another functions which calls these to print out the box.
+Exercise 3.5. Write a procedure box() that prints a grid. There should be a line with "+" and "-"' followed by four lines with "|" and blanks, followed by another line like the first followed by four lines with "|" and blanks followed by another line like the first. See the picture below.
+
+You should have two different functions to print out the rows, and another function which calls these to print out the box. horizontal(x) will be used to print the lines with "+" and "-", vertical(x) will print the lines "|" and blanks. The x is the total number of characters in the row. In the example below x is 11, so that we kno
 
 x is the width of the row
 ```
@@ -30,22 +31,28 @@ def vertical(x)
 def box(x)
      <your code goes here>
 horizontal(11)
+print("\n")
 vertical(11)
+print("\nYour box should look like:\n")
 box(11)
 Output
-+ - - - - + - - - - +
-|         |         |
-+ - - - - + - - - - +
-|         |         |
-|         |         |
-|         |         |
-|         |         |
-+ - - - - + - - - - +
-|         |         |
-|         |         |
-|         |         |
-|         |         |
-+ - - - - + - - - - +
++----+----+
+
+|    |    |
+
+Your box should look like:
+
++----+----+
+|    |    |
+|    |    |
+|    |    |
+|    |    |
++----+----+
+|    |    |
+|    |    |
+|    |    |
+|    |    |
++----+----+
 ```
 
 #### 3. Here is the code for version 3 of knockknock:
@@ -65,7 +72,15 @@ for example  setup(“Iva”)  will print out
 Iva
 Iva who?
 
-#### 4. Create a knockknock procedure that accepts two inputs, the answer to who’s there and the punchline, and prints out the knock knock joke. 
+#### 4. Create a knockknock(answer, punchline) procedure that accepts two inputs, the answer to who’s there and the punchline, and prints out the knock knock joke. 
 
 Your program should call knockknockintro() and setup().
+
+knockknock("Canoe", "help me with my homework?") should print out
+
+Knock, knock
+Who's there?
+Canoe
+Canoe who?
+Canoe help me with my homework?
 
