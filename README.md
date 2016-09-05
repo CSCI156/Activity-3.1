@@ -55,19 +55,6 @@ Your box should look like:
 +----+----+
 ```
 
-At some point in your code you are going to have to do some arithmetic on x. In order to ensure that the result in an integer, put your arithmetic inside of int(), which will force the answer to be an integer. For example the output of 
-
-print(8/2)
-<br>
-print(int(8/2)
-<br>
-will be 
-<br>
-4.0
-<br>
-4
-
-
 #### 3. Here is the code for version 3 of knockknock:
 ```
 def knockknockintro():
