@@ -79,8 +79,12 @@ Your program should call knockknockintro() and setup().
 knockknock("Canoe", "help me with my homework?") should print out
 
 Knock, knock
+
 Who's there?
+
 Canoe
+
 Canoe who?
+
 Canoe help me with my homework?
 
