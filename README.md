@@ -69,7 +69,9 @@ Add a procedure called setup that will take an input x, which is a string, and p
 new line with string and who?
 
 for example  setup(“Iva”)  will print out
+
 Iva
+
 Iva who?
 
 #### 4. Create a knockknock(answer, punchline) procedure that accepts two inputs, the answer to who’s there and the punchline, and prints out the knock knock joke. 
