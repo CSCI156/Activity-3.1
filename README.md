@@ -20,16 +20,18 @@ Output:
 ####2. Exercise 3.5 from thinkPython
 Exercise 3.5. Write a procedure box() that prints a grid. There should be a line with "+" and "-"' followed by four lines with "|" and blanks, followed by another line like the first followed by four lines with "|" and blanks followed by another line like the first. See the picture below.
 
-You should have two different functions to print out the rows, and another function which calls these to print out the box. horizontal(x) will be used to print the lines with "+" and "-", vertical(x) will print the lines "|" and blanks. The x is the total number of characters in the row. In the example below x is 11, so that we kno
+You should have two different functions to print out the rows: horizontal(x) and vertical(x). horizontal(x) will be used to print the rows with "+" and "-", vertical(x) will print the rows with "|" and blanks. x is the total number of characters in the row. In the example below x is 11, which tells us that there will be 3 "+" signs and 8 total "-"'s in the first row and 3 "|"'s and 8 total " "'s in the second row.
 
-x is the width of the row
 ```
 def horizontal(x)
      <your code goes here>
+     
 def vertical(x)
      <your code goes here>
+     
 def box(x)
      <your code goes here>
+     
 horizontal(11)
 print("\n")
 vertical(11)
