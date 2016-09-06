@@ -18,43 +18,77 @@ Output:
 ```
 
 ####2. Exercise 3.5 from thinkPython
-Exercise 3.5. Write a procedure box() that prints a grid. There should be a line with "+" and "-"' followed by four lines with "|" and blanks, followed by another line like the first followed by four lines with "|" and blanks followed by another line like the first. See the picture below.
+Exercise 3.5. 
+i. Write a procedure horizontal(x) that prints a line that is a "+" followed by some "-" followed by a "+" followed by the same number of dashes followed by a "+". The number of dashes is determined by x, which is the total number of characters on the line
 
-You should have two different functions to print out the rows: horizontal(x) and vertical(x). horizontal(x) will be used to print the rows with "+" and "-", vertical(x) will print the rows with "|" and blanks. x is the total number of characters in the row. In the example below x is 11, which tells us that there will be 3 "+" signs and 8 total "-"'s in the first row and 3 "|"'s and 8 total " "'s in the second row.
+Examples with output:
+```
+horizontal(5)
+Output:
++-+-+
+```
+In this case horizontal(5) means there should be 5 total characters on the line, including the "+" signs.
 
 ```
-def horizontal(x)
-     <your code goes here>
-     
-def vertical(x)
-     <your code goes here>
-     
+horizontal(9)
+Output:
++---+---+
+```
+Here there are 9 total characters on the line.
+```
+horizontal(25)
+Output:
++-----------+-----------+
+```
+Here there are twenty five total characters on the line.
+
+ii. Write a procedure vertical(x) that prints a line that is a "|" followed by some spaces followed by a "|" followed by the same number of spaces followed by a "|". The number of spaces is determined by x, which is the total number of characters on the line.
+```
+horizontal(5)
+Output:
+| | |
+horizontal(9)
+Output:
+|   |   |
+horizontal(25)
+Output:
+|           |           |
+```
+
+iii. Write a procedure box(x) which uses vertical(x) and horizontal(x) to print a box that has width x. There should be a horizontal row, followed by four vertical rows, followed by another horizontal row, four vertical rows, and finally a horizontal row all of width x. 
+
+```
 def box(x)
      <your code goes here>
      
-horizontal(11)
-print("\n")
-vertical(11)
-print("\nYour box should look like:\n")
 box(11)
-Output
+print("\n\n")
+box(5)
+Output:
++----+----+
+|    |    |
+|    |    |
+|    |    |
+|    |    |
++----+----+
+|    |    |
+|    |    |
+|    |    |
+|    |    |
 +----+----+
 
-|    |    |
 
-Your box should look like:
-
-+----+----+
-|    |    |
-|    |    |
-|    |    |
-|    |    |
-+----+----+
-|    |    |
-|    |    |
-|    |    |
-|    |    |
-+----+----+
++-+-+
+| | |
+| | |
+| | |
+| | |
++-+-+
+| | |
+| | |
+| | |
+| | |
++-+-+
 ```
 
 #### 3. Here is the code for version 3 of knockknock:
