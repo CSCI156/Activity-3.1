@@ -24,23 +24,13 @@ i. Write a procedure horizontal(x) that prints a line that is a "+" followed by 
 Examples with output:
 ```
 horizontal(5)
-Output:
-+-+-+
-```
-In this case horizontal(5) means there should be 5 total characters on the line, including the "+" signs.
-
-```
 horizontal(9)
-Output:
-+---+---+
-```
-Here there are 9 total characters on the line.
-```
 horizontal(25)
 Output:
++-+-+
++---+---+
 +-----------+-----------+
 ```
-Here there are twenty five total characters on the line.
 
 ii. Write a procedure vertical(x) that prints a line that is a "|" followed by some spaces followed by a "|" followed by the same number of spaces followed by a "|". The number of spaces is determined by x, which is the total number of characters on the line.
 ```
