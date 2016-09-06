@@ -20,7 +20,7 @@ Output:
 ####2. Exercise 3.5 from thinkPython
 Exercise 3.5. 
 <br>
-i. Write a procedure horizontal(x) that prints a line that is a "+" followed by some "-" followed by a "+" followed by the same number of dashes followed by a "+". The number of dashes is determined by x, which is the total number of characters on the line
+i. Write a procedure horizontal(x) that prints a line that is a "+" followed by some dashes followed by a "+" followed by the same number of dashes followed by a "+". The number of dashes is determined by x, which is the total number of characters on the line
 
 Examples with output:
 ```
