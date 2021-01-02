@@ -27,13 +27,13 @@ def horizontal(x):
 horizontal(5)
 horizontal(9)
 horizontal(25)
-
+print("\n\n")
 
 def box(x):
     x = int((x-3)/2)
     y = "+"+("-"*x)+"+"+("-"*x)+"+"
-    z = "|"+(" "*x)+"|"+(" "*x)+"|"
-    print(y+"\n"+(z*4)+"\n"+y+"\n"+(z*4)+"\n"+y)
+    z = "|"+(" "*x)+"|"+(" "*x)+"|"+"\n"
+    print(y+"\n"+(z*4)+y+"\n"+(z*4)+y)
 
 
 box(11)
