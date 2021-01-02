@@ -16,3 +16,14 @@ def line(x):
 line(5)
 line(9)
 line(25)
+
+
+def horizontal(x):
+    x = int((x-3)/2)
+    y = "|"+(" "*x)+"|"+(" "*x)+"|"
+    print(y)
+
+
+horizontal(5)
+horizontal(9)
+horizontal(25)
