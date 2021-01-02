@@ -8,7 +8,7 @@ right_justify("Python is amazing!")
 
 
 def line(x):
-    x = ((x-3)/2)
+    x = int((x-3)/2)
     y = "+"+("-"*x)+"+"+("-"*x)+"+"
     print(y)
 
