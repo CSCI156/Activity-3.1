@@ -43,6 +43,7 @@ box(5)
 
 print("\n")
 
+
 def knockknockintro():
     print("Knock, knock")
     print("Who’s there?")
@@ -55,3 +56,17 @@ def setup(x):
 
 knockknockintro()
 setup("canoe")
+print("\n")
+
+
+def knockknock(x, y):
+    z = "Knock knock"+"\n"+"Who's there?"+"\n"
+    x = x
+    w = x+" "+"who?"+"\n"
+    y = x+" "+y
+    print(z+x+"\n"+w+y)
+
+
+knockknock("Canoe", "help me with my homework?")
+print("\n")
+knockknock("Boo", "don't cry it's just a joke!")
