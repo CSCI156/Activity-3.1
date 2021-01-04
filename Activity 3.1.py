@@ -29,6 +29,7 @@ horizontal(9)
 horizontal(25)
 print("\n\n")
 
+
 def box(x):
     x = int((x-3)/2)
     y = "+"+("-"*x)+"+"+("-"*x)+"+"
@@ -39,3 +40,18 @@ def box(x):
 box(11)
 print("\n\n")
 box(5)
+
+print("\n")
+
+def knockknockintro():
+    print("Knock, knock")
+    print("Who’s there?")
+
+
+def setup(x):
+    x = x+"\n"+(x+" "+"who?")
+    print(x)
+
+
+knockknockintro()
+setup("canoe")
